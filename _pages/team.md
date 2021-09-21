@@ -30,7 +30,40 @@ Jump to [Faculty](#faculty), [Graduate students](#graduate-students), [alumni](#
     <br/>
   {{member.keywords}}
   <br/>
-  {{member.website}}
+  <ul class="list-inline">
+  {% if member.email %}
+  <li class="list-inline-item">
+  <a href="mailto:firstname.lastname@univ-lorraine.fr"  title="email" class="no-mark-external">
+    <span class="fa fa-envelope"></span>
+    <!-- <span class="sr-only">{{ name }}</span> -->
+  </a>
+  </li>
+  {% endif %}
+  {% if member.website %}
+  <li class="list-inline-item">
+  <a href="{{member.website}}" title="personal website" class="no-mark-external">
+    <span class="fa fa-globe"></span>
+    <!-- <span class="sr-only">{{ name }}</span> -->
+  </a>
+  </li>
+  {% endif %}
+  {% if member.scholar %}
+  <li class="list-inline-item">
+  <a href="{{member.scholar}}" title="scholar" class="no-mark-external">
+    <span class="ai ai-lg ai-google-scholar-square"></span>
+    <!-- <span class="sr-only">{{ name }}</span> -->
+  </a>
+  </li>
+  {% endif %}
+  {% if member.researchgate %}
+  <li class="list-inline-item">
+  <a href="{{member.researchgate}}" title="rg" class="no-mark-external">
+    <span class="ai ai-lg ai-researchgate-square"></span>
+    <!-- <span class="sr-only">{{ name }}</span> -->
+  </a>
+  </li>
+  {% endif %}
+  </ul>
   <ul style="overflow: hidden">
 
   {% if member.number_educ == 1 %}
@@ -93,8 +126,46 @@ Jump to [Faculty](#faculty), [Graduate students](#graduate-students), [alumni](#
 {% endif %}
 
 <div class="col-sm-6 clearfix">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <h4>{{ member.name }}</h4>
-  <i>{{ member.info }} <!-- <br>email: <{{ member.email }}></i> -->
+  <i>{{ member.info }} </i> <!--<br>email: <{{ member.email }}></i> -->
+    <br/>
+  {{member.keywords}}
+  <br/>
+  <ul class="list-inline">
+  {% if member.email %}
+  <li class="list-inline-item">
+  <a href="mailto:firstname.lastname@univ-lorraine.fr"  title="email" class="no-mark-external">
+    <span class="fa fa-envelope"></span>
+    <!-- <span class="sr-only">{{ name }}</span> -->
+  </a>
+  </li>
+  {% endif %}
+  {% if member.website %}
+  <li class="list-inline-item">
+  <a href="{{member.website}}" title="personal website" class="no-mark-external">
+    <span class="fa fa-globe"></span>
+    <!-- <span class="sr-only">{{ name }}</span> -->
+  </a>
+  </li>
+  {% endif %}
+  {% if member.scholar %}
+  <li class="list-inline-item">
+  <a href="{{member.scholar}}" title="scholar" class="no-mark-external">
+    <span class="ai ai-lg ai-google-scholar-square"></span>
+    <!-- <span class="sr-only">{{ name }}</span> -->
+  </a>
+  </li>
+  {% endif %}
+  {% if member.researchgate %}
+  <li class="list-inline-item">
+  <a href="{{member.researchgate}}" title="rg" class="no-mark-external">
+    <span class="ai ai-lg ai-researchgate-square"></span>
+    <!-- <span class="sr-only">{{ name }}</span> -->
+  </a>
+  </li>
+  {% endif %}
+  </ul>
   <ul style="overflow: hidden">
 
   {% if member.number_educ == 1 %}
@@ -117,6 +188,14 @@ Jump to [Faculty](#faculty), [Graduate students](#graduate-students), [alumni](#
   <li> {{ member.education2 }} </li>
   <li> {{ member.education3 }} </li>
   <li> {{ member.education4 }} </li>
+  {% endif %}
+
+  {% if member.number_educ == 5 %}
+  <li> {{ member.education1 }} </li>
+  <li> {{ member.education2 }} </li>
+  <li> {{ member.education3 }} </li>
+  <li> {{ member.education4 }} </li>
+  <li> {{ member.education5 }} </li>
   {% endif %}
 
   </ul>

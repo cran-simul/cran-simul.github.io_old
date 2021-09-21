@@ -9,15 +9,16 @@
 #  education4:
 
 - name: Philippe Flores 
-  photo: rock.jpg
+  photo: misc.jpg
   info: PhD student
   email: philippe.flores@univ-lorraine.fr
-  number_educ: 0
-  education1:
 
-- name: Clémence Prevost 
-  photo: rock.jpg
-  info: Phd Student
+
+- name: Clémence Prévost 
+  photo: misc.jpg
+  info: PhD Student
   email: clemence.prevost@univ-lorraine.fr
-  number_educ: 0
-  education1:
+  scholar: https://scholar.google.fr/citations?user=9weHpAkAAAAJ&hl=fr
+  website: https://cprevost4.github.io
+  researchgate: https://www.researchgate.net/profile/Clemence-Prevost
+
