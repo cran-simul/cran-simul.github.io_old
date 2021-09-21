@@ -1,3 +1,9 @@
+-  speaker: Christian Wolf
+   institution: LIRIS, Lyon
+   date:  December, 16th 2021, 14h-15h
+   title: TBD
+   active: 1
+
 -  speaker: Radu Ranta
    institution: CRAN, Université de Lorraine
    date:  June, 24th 2021, 10h-11h
@@ -19,6 +25,30 @@
   abstract: Real-world data used to train modern artificial neural networks reflect the complexity of the environment that we are evolving in. As a consequence, they are neither flat, nor decorrelated nor one dimensional. Instead, scientists have to deal with composed and multidimensional entities, that are characterized by multiple related components, such as color channels describing a single color pixel of an image, or the 3D coordinates of a point denoting the position of a robot. Surprisingly, recent advances on deep learning are mainly focused on developing novel architectures to extract even more relevant and robust high level representations from the input features, while the latter are still poorly considered at a lower and basic level, by being processed with one dimensional real-valued neural models. Neural networks based on complex and quaternion numbers have been used sparsely for many decades. Nonetheless, due to new statements and proofs about the benefits of these models over real-valued ones on many real-world tasks, quaternion based neural networks have been increasingly employed, and novel quaternion based architectures have been proposed. This talk will detail quaternion neural networks architectures for artificial intelligence related tasks, such as image processing, or speech recognition, by introducing first the basics of quaternion numbers, and then describing recent advances on quaternion neural networks with the quaternion convolutional (Interspeech 2018, ICASSP 2019) and recurrent neural networks (ICLR 2019, Interspeech 2020). This presentation will also show their benefits in terms of performances obtained in different tasks, as well as in terms of neural parameters required for learning. Finally, the talk will outline important future research directions to turn quaternion neural networks into a mandatory alternative to real-valued models for real-world tasks. 
   active: 0
 
+- speaker: Fateme Ghayem
+  institution: Gipsa-Lab, Grenoble
+  date:  January, 13th 2021, 10h-11h
+  title: Optimal sensor placement for signal extraction
+  abstract: Many signal processing problems can be cast from a generic setting where a source signal propagates through a given environment to some sensors. Under this setting, we can be interested either in (i) estimating the source signal, or (ii) the environment, or even (iii) the resulting field of signals in some regions of the environment. In all these cases, signals are recorded by multiple sensors located at different positions. Due to price, energy, or ergonomic constraints, the number of sensors is often limited and it becomes crucial to place a few sensors at positions that contain the maximum information. This problem corresponds to optimal sensor placement and it appears in a great number of applications. The way to tackle the problem of optimal sensor placement depends on which of the three aspects mentioned above we want to address. In this talk, we focus on estimating a source signal from a set of noisy measurements collected from a limited number of sensors, and we present new criteria as well as algorithms. Specifically, our first proposed criterion maximizes the average signal to noise ratio (SNR) of the estimated signal, and we experimentally show that the performance obtained by this criterion outperforms the results obtained using classical Kriging-based methods. Since the SNR is uncertain in this context, to achieve a robust signal extraction, we propose a second placement criterion based on the maximization of the probability that the output SNR exceeds a given threshold. This criterion can be easily evaluated using a Gaussian process assumption for the signal, the noise, and the environment. Moreover, to reduce the computational complexity of the joint maximization of the criterion with respect to all sensor positions, we propose a greedy algorithm where the sensor positions are sequentially (i.e. one by one) selected. Finally, for improving the sub-optimal greedy algorithm, we present an optimization approach to locate all the sensors at once. For this purpose, we add a constraint to the problem that can control the average distances between the sensors. To solve our problem, we use an alternating optimization penalty method.
+  active: 0
+
+- speaker: Nikola Besic
+  institution: Centre Météorologie Radar de Météo-France, Toulouse
+  date:  December, 14th 2020, 14h-15h
+  title: "Mes expériences dans la télédétection radar : la Terre depuis le ciel, le ciel depuis la Terre, et comment profiter des deux ?"
+  abstract: "La télédétection radar est une discipline qui repose sur le traitement du signal, d'images et de données, et sur la physique. Caractérisée par les nombreuses spécificités par rapport aux autres moyens de télédétection, cette discipline s'est montrée indispensable dans l'observation de la Terre et de l'atmosphère. De plus, il s'agit d'un domaine qui a motivé et permis de nombreux travaux de recherche concernant l'analyse statistique du signal, d'images et de données. Nikola Besic partagera avec nous certaines de ces expériences dans l'observation de la Terre depuis le ciel, et dans l'observation du ciel depuis la Terre, au moyen de radar. La première partie de son exposé adresse alors les travaux effectués sur le sujet du Radar à Synthèse d'Ouverture, satellitaire et polarimétrique, qui incluent la problématique des modèles statistiques et de la décomposition, ainsi que l'application dans le contexte des études de la cryosphère. La deuxième partie concerne plutôt l'observation de l'atmosphère avec un radar toujours polarimétrique, mais cette fois-ci terrestre, et ses efforts de trouver un compromis entre la physique et l'apprentissage automatique à partir de données, dans un contexte des méthodes de classification semi-supervisée."
+  active: 0
+
+
+
+
+ 
+
+ 
+
+ 
+
+ 
  
 
 

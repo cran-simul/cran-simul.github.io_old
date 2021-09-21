@@ -8,7 +8,14 @@ permalink: /seminars/
 
 # Seminars
 
+Our group host seminars on a regular monthly basis, either in person or remotely. 
+To get the latest anouncements, you can subscribe to the seminar mailing list [cran-simul-seminars@univ-lorraine.fr](mailto:cran-simul-seminars@univ-lorraine.fr) as follows:
+
+- to subscribe, send a blank email to [sympa@univ-lorraine.fr](mailto:sympa@univ-lorraine.fr) with object **SUBSCRIBE cran-simul-seminars**. A admin will review and validate your request. 
+- to unsubscribe, send a blank email to [sympa@univ-lorraine.fr](mailto:sympa@univ-lorraine.fr) with object **UNSUBSCRIBE cran-simul-seminars**. A admin will review and validate your request. 
+
 ## Upcoming seminars
+
 {% for seminar in site.data.seminarlist %}
 {% if seminar.active == 1%}
 
