@@ -250,28 +250,38 @@ Jump to [Faculty](#faculty), [Graduate students](#graduate-students), [alumni](#
 
 ## Alumni
 <div class="row">
+<div class="col-md-6 clearfix">
+<h4>Postdoctoral researchers</h4>
+{% for member in site.data.alumni_postdocs %}
+{{member.name }} <br />
+*now {{member.now }}*
+{% endfor %}
+</div>
 
-<div class="col-sm-4 clearfix">
+<div class="col-md-6 clearfix">
+<h4>PhD students</h4>
+{% for member in site.data.alumni_phd %}
+{{member.name }} 
+{% if member.now %} <br/> *now {{member.now }}*
+{% endif %}
+{% endfor %}
+</div>
+</div>
+
+<div class=row>
+<div class="col-md-6 clearfix">
 <h4>Visitors</h4>
 {% for member in site.data.alumni_visitors %}
 {{ member.name }}
 {% endfor %}
 </div>
-
-<div class="col-sm-4 clearfix">
-<h4>PhD students</h4>
-{% for member in site.data.alumni_phd %}
-{{ member.name }}
-{% endfor %}
-</div>
-
-<div class="col-sm-4 clearfix">
+<div class="col-md-6 clearfix">
 <h4>Master students</h4>
 {% for member in site.data.alumni_msc %}
 {{ member.name }}
 {% endfor %}
 </div>
 
-</div>
+
 
 
