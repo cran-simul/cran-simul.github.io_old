@@ -48,13 +48,14 @@ To get the latest anouncements, you can subscribe to the seminar mailing list [c
 <p>
     <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapse-past-{{forloop.index}}" aria-expanded="false" aria-controls="collapse-past-{{forloop.index}}">
     Abstract
-  </button>
-</p>
+  </button> {% if seminar.pdf%} <button type="button" class="btn btn-light" onclick="window.location='/assets/seminars/{{seminar.pdf}}';">slides</button> {% endif %}
+</p>    
 <div class="collapse" id="collapse-past-{{forloop.index}}">
   <div class="card card-body">
 {{seminar.abstract}}
   </div>
 </div>
+
 {% endif %}
 {% endfor %}
 

@@ -9,21 +9,24 @@
    date:  October, 21th 2021, 14h30-15h
    title: Tensor methods with applications in system identification
    abstract: "TBD"
-   active: 1
+   pdf: 1_Ishteva_Presentation_Mariya_2021_Nancy.pdf
+   active: 0
 
 -  speaker: Jean-Yves Tourneret 
    institution: ENSEEIHT, Toulouse
    date:  October, 21th 2021, 15h-15h40
    title: "Hypersphere Fitting: Model, Algorithms and Future Work"
    abstract: "We will present a recent EM algorithm for hypersphere fitting based on a von Mises-Fisher prior. The algorithm achieves competitive performance compared to the state-of-the-art. In addition, it can be easily robustified to mitigate the presence of potential outliers. After presenting some results obtained with this algorithm, we will discuss some open issues related to the application to LiDAR point clouds. These open issues include the consideration of mixtures of hyperspheres, the segmentation and denoising of LiDAR point clouds and the fusion of point clouds with RGB images"
-   active: 1
+   active: 0
+   pdf: 2_Tourneret_Slides_Nancy_21octobre2021.pdf
 
 -  speaker:  Eric Chaumette
    institution: ISAE-Supaéro, Toulouse
    date:  October, 21th 2021, 15h40-16h10
    title: "Robust Linearly Constrained Filtering and Smoothing: Results and Applications"
    abstract: "It is well-known that Wiener and Kalman filter (KF) like techniques are sensitive to misspecified covariances, uncertainties in the system matrices and parameters, filter initialization or unexpected system behaviors induced by time-varying environments, harsh propagation conditions, malicious interferences or unmodeled inputs. In this talk we introduce a possible solution to robustify these estimation techniques through linear constraints (LCs): i) we detail the linearly constrained KF (LCKF), where a set of non-stationary LCs can be set at every time step, ii) we show how to use such LCs to mitigate modeling errors in general mismatched linear discrete state-space models, and iii) we point the reader to some recent LCKF extensions (i.e., information filter, invariant filter, linear smoother and  LC-extended/cubature-KF). Some applications of interest are provided to support the discussion: robust array processing, GNSS position and attitude estimation, invariant navigation and visual SLAM."
-   active: 1
+   active: 0
+   pdf: 3_Chaumette_Slides_Robust_LCKF_CRAN.pdf
 
 
 
