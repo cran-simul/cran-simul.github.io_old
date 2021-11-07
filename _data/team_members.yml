@@ -23,23 +23,32 @@
   keywords:
   website: http://www.cran.univ-lorraine.fr/detailindividupublic.php?appel=annuaire&codetheme&codeindividu=00089&codelangue=FR
   scholar: https://scholar.google.fr/citations?user=BknnqrgAAAAJ&hl=fr
-  researchgate: https://www.researchgate.net/profile/David-Brie 
+  researchgate: https://www.researchgate.net/profile/David-Brie
 
 
 - name: Konstantin Usevich
   photo: usevich.jpg
-  info: CNRS Junior research scientist 
+  info: CNRS Junior research scientist
   email: konstantin.usevich@univ-lorraine.fr
   photo: misc.jpg
-  keywords: 
+  keywords:
   website: http://w3.cran.univ-lorraine.fr/konstantin.usevich/?q=content/home
   scholar: https://scholar.google.com/citations?user=9qkzr10AAAAJ&hl=fr
 
 - name: Julien Flamant
   photo: flamant.jpg
-  info: CNRS Junior research scientist 
+  info: CNRS Junior research scientist
   email: julien.flamant@univ-lorraine.fr
-  keywords: 
+  keywords:
   website: https://jflamant.github.io
   scholar: https://scholar.google.com/citations?user=rNN19hcAAAAJ&hl=fr
   researchgate: https://www.researchgate.net/profile/Julien_Flamant
+
+- name: Alain Delconte
+  photo: delconte.jpg
+  info: Research Engineer Junior research scientist
+  email: alain.delconte@univ-lorraine.fr
+  keywords: Hyperspectral Imaging platform manager
+
+
+-
