@@ -8,10 +8,11 @@
 #  education3:
 #  education4:
 
-- name: Philippe Flores 
+- name: Philippe Flores
   photo: flores.jpg
   info: PhD student
   email: philippe.flores@univ-lorraine.fr
+  subject: "Probability density function estimation in high dimensions with low-rank tensor models: application to immune cells characterization."
 
 - name: Radouan Dahbi
   photo: misc.jpg
