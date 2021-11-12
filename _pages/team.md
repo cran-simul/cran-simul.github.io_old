@@ -130,7 +130,7 @@ Jump to [Faculty](#faculty), [Graduate students](#graduate-students), [alumni](#
   <h4>{{ member.name }}</h4>
   <i>{{ member.info }} </i> <!--<br>email: <{{ member.email }}></i> -->
     <br/>
-  {{member.subject}}
+  <p class="text-muted"> {{member.subject}}</p>
   <br/>
   <ul class="list-inline">
   {% if member.email %}
