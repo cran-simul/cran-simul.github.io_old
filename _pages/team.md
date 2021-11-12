@@ -130,7 +130,7 @@ Jump to [Faculty](#faculty), [Graduate students](#graduate-students), [alumni](#
   <h4>{{ member.name }}</h4>
   <i>{{ member.info }} </i> <!--<br>email: <{{ member.email }}></i> -->
     <br/>
-  {{member.keywords}}
+  {{member.subject}}
   <br/>
   <ul class="list-inline">
   {% if member.email %}
@@ -261,7 +261,7 @@ Jump to [Faculty](#faculty), [Graduate students](#graduate-students), [alumni](#
 <div class="col-md-6 clearfix">
 <h4>PhD students</h4>
 {% for member in site.data.alumni_phd %}
-{{member.name }} 
+{{member.name }}
 {% if member.now %} <br/> *now {{member.now }}*
 {% endif %}
 {% endfor %}
@@ -281,7 +281,3 @@ Jump to [Faculty](#faculty), [Graduate students](#graduate-students), [alumni](#
 {{ member.name }}
 {% endfor %}
 </div>
-
-
-
-
