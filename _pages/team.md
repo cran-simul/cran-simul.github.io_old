@@ -131,7 +131,6 @@ Jump to [Faculty](#faculty), [Graduate students](#graduate-students), [alumni](#
   <i>{{ member.info }} </i> <!--<br>email: <{{ member.email }}></i> -->
     <br/>
   <p class="text-muted"> {{member.subject}}</p>
-  <br/>
   <ul class="list-inline">
   {% if member.email %}
   <li class="list-inline-item">
