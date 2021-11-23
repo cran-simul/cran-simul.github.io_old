@@ -4,7 +4,13 @@
    title: TBD
    active: 1
 
--  speaker: Mariya  Ishteva 
+-  speaker: Simon Barthelmé
+   institution: Gipsa-Lab, France
+   date: November, 19th 2021, 15h-16h
+   title: Smoothing (Large) Graph Signals using Random Forests
+   abstract: A natural way of denoising graph signals is to penalise local variation using the graph Laplacian. Because this has worst-case cost O(n^3) in the number of nodes, exact methods cannot be used for very large graphs. I'll show how a simple stochastic process can be used to obtain fast unbiased estimators for the smoothed signal. I'll introduce some variance reduction techniques, including a gradient-descent technique that works more generally whenever an unbiased estimator of a least-squares problem is available. Joint work with Yigit Pilavci, Nicolas Tremblay, P-O Amblard
+   active: 0
+-  speaker: Mariya  Ishteva
    institution: KU Leuven, Belgium
    date:  October, 21th 2021, 14h30-15h
    title: Tensor methods with applications in system identification
@@ -12,7 +18,7 @@
    pdf: 1_Ishteva_Presentation_Mariya_2021_Nancy.pdf
    active: 0
 
--  speaker: Jean-Yves Tourneret 
+-  speaker: Jean-Yves Tourneret
    institution: ENSEEIHT, Toulouse
    date:  October, 21th 2021, 15h-15h40
    title: "Hypersphere Fitting: Model, Algorithms and Future Work"
@@ -38,7 +44,7 @@
    title: Low-Rank Inverse Problems in Brain Signal Processing
    abstract: "The presentation will start by introducing the basics principles of biophysics allowing to model the electrophysiological brain measurements (EEG / SEEG / micro-electrodes), and more precisely the relations between the neural current sources and the electrodes. Once the signal model defined, I will briefly present some of the classical methods for solving the inverse problem of brain sources estimation (localization and activity), and I will focus next on our work on sparse approximations and low-rank (exact and approximate) source estimates."
    active: 0
-   
+
 -  speaker: Gaëtan Frusque
    institution: ETH Zürich
    date:  April, 16th 2021, 10h-11h
@@ -50,7 +56,7 @@
   institution: Université d’Avignon
   date:  March, 24th 2021, 14h-15h
   title: Should we use quaternion neural networks? Recent advances and limitations.
-  abstract: Real-world data used to train modern artificial neural networks reflect the complexity of the environment that we are evolving in. As a consequence, they are neither flat, nor decorrelated nor one dimensional. Instead, scientists have to deal with composed and multidimensional entities, that are characterized by multiple related components, such as color channels describing a single color pixel of an image, or the 3D coordinates of a point denoting the position of a robot. Surprisingly, recent advances on deep learning are mainly focused on developing novel architectures to extract even more relevant and robust high level representations from the input features, while the latter are still poorly considered at a lower and basic level, by being processed with one dimensional real-valued neural models. Neural networks based on complex and quaternion numbers have been used sparsely for many decades. Nonetheless, due to new statements and proofs about the benefits of these models over real-valued ones on many real-world tasks, quaternion based neural networks have been increasingly employed, and novel quaternion based architectures have been proposed. This talk will detail quaternion neural networks architectures for artificial intelligence related tasks, such as image processing, or speech recognition, by introducing first the basics of quaternion numbers, and then describing recent advances on quaternion neural networks with the quaternion convolutional (Interspeech 2018, ICASSP 2019) and recurrent neural networks (ICLR 2019, Interspeech 2020). This presentation will also show their benefits in terms of performances obtained in different tasks, as well as in terms of neural parameters required for learning. Finally, the talk will outline important future research directions to turn quaternion neural networks into a mandatory alternative to real-valued models for real-world tasks. 
+  abstract: Real-world data used to train modern artificial neural networks reflect the complexity of the environment that we are evolving in. As a consequence, they are neither flat, nor decorrelated nor one dimensional. Instead, scientists have to deal with composed and multidimensional entities, that are characterized by multiple related components, such as color channels describing a single color pixel of an image, or the 3D coordinates of a point denoting the position of a robot. Surprisingly, recent advances on deep learning are mainly focused on developing novel architectures to extract even more relevant and robust high level representations from the input features, while the latter are still poorly considered at a lower and basic level, by being processed with one dimensional real-valued neural models. Neural networks based on complex and quaternion numbers have been used sparsely for many decades. Nonetheless, due to new statements and proofs about the benefits of these models over real-valued ones on many real-world tasks, quaternion based neural networks have been increasingly employed, and novel quaternion based architectures have been proposed. This talk will detail quaternion neural networks architectures for artificial intelligence related tasks, such as image processing, or speech recognition, by introducing first the basics of quaternion numbers, and then describing recent advances on quaternion neural networks with the quaternion convolutional (Interspeech 2018, ICASSP 2019) and recurrent neural networks (ICLR 2019, Interspeech 2020). This presentation will also show their benefits in terms of performances obtained in different tasks, as well as in terms of neural parameters required for learning. Finally, the talk will outline important future research directions to turn quaternion neural networks into a mandatory alternative to real-valued models for real-world tasks.
   active: 0
 
 - speaker: Fateme Ghayem
@@ -66,20 +72,3 @@
   title: "Mes expériences dans la télédétection radar : la Terre depuis le ciel, le ciel depuis la Terre, et comment profiter des deux ?"
   abstract: "La télédétection radar est une discipline qui repose sur le traitement du signal, d'images et de données, et sur la physique. Caractérisée par les nombreuses spécificités par rapport aux autres moyens de télédétection, cette discipline s'est montrée indispensable dans l'observation de la Terre et de l'atmosphère. De plus, il s'agit d'un domaine qui a motivé et permis de nombreux travaux de recherche concernant l'analyse statistique du signal, d'images et de données. Nikola Besic partagera avec nous certaines de ces expériences dans l'observation de la Terre depuis le ciel, et dans l'observation du ciel depuis la Terre, au moyen de radar. La première partie de son exposé adresse alors les travaux effectués sur le sujet du Radar à Synthèse d'Ouverture, satellitaire et polarimétrique, qui incluent la problématique des modèles statistiques et de la décomposition, ainsi que l'application dans le contexte des études de la cryosphère. La deuxième partie concerne plutôt l'observation de l'atmosphère avec un radar toujours polarimétrique, mais cette fois-ci terrestre, et ses efforts de trouver un compromis entre la physique et l'apprentissage automatique à partir de données, dans un contexte des méthodes de classification semi-supervisée."
   active: 0
-
-
-
-
- 
-
- 
-
- 
-
- 
- 
-
-
-
-
-
