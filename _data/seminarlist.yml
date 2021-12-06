@@ -1,8 +1,19 @@
 -  speaker: Christian Wolf
    institution: LIRIS, Lyon
    date:  December, 16th 2021, 14h-15h
-   title: TBD
+   title: Learning high-level reasoning in vision, language and robotics
+   abstract: "An important sub goal of AI is the creation of intelligent agents, which require high-level reasoning capabilities, situation awareness, and the capacity of robustly taking the right decisions at the right moments. An exact definition of the term reasoning is difficult, but we define it as the opposite of exploiting spurious biases and short-cuts in training data picked up by low-level statistics, and which could lead to dramatic losses in generalization beyond the training data.
+
+   In this talk we will cover the automatic learning reasoning capabilities through large-scale training of deep neural networks from data, and we target different situations, like robotics and embodied computer vision (robot navigation to solve visual tasks) as well as vision and language reasoning (visual question answering). We explore this problem in a holistic way and study it from various angles of attack: what are the tasks which lead to emergence of reasoning? How can we evaluate agents and measure reasoning vs. bias exploitation? How can we x-ray neural models and visualize their internal behavior? What are the bottlenecks in learning reasoning? Can we structure neural networks with inductive bias to improve the emergence of reasoning, by including prior knowledge on geometry, physics, or semantics?"
    active: 1
+
+-  speaker: Clément Elvira
+   institution: IETR, Rennes
+   date:  December, 9th 2021, 10h-11h
+   title: Node-screening tests for l0-penalized Least-Squares problem
+   abstract: "TBD"
+   active: 1
+
 
 -  speaker: Simon Barthelmé
    institution: Gipsa-Lab, France
