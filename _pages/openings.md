@@ -29,6 +29,8 @@ Contact: [Sebastian Miron](mailto:sebastian.miron@univ-lorraine.fr)  and [Julien
 ## Master internships
 Positions currently available for spring 2022:
 * "Learning physical features from polarimetric images"  **M2R internship, starting Feb 2022.**<br />
-Contact: [Julien Flamant](mailto:julien.flamant@univ-lorraine.fr) and [Sebastian Miron](mailto:sebastian.miron@univ-lorraine.fr)
+Contact: [Julien Flamant](mailto:julien.flamant@univ-lorraine.fr) and [Sebastian Miron](mailto:sebastian.miron@univ-lorraine.fr)<br/>
+<a href="/assets/jobs/M2R_learningFeaturesPolarization.pdf">Full job information <span class="fa fa-file-pdf-o"></span></a>
+
 * "Algorithms for polarimetric phase retrieval" **M2R internship, starting Feb 2022.**<br />
 Contact: [Julien Flamant](mailto:julien.flamant@univ-lorraine.fr)
