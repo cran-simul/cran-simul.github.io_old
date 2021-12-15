@@ -31,3 +31,7 @@ Positions currently available for spring 2022:
 * "**Learning physical features from polarimetric images**"  **M2R internship, starting Feb 2022.**<br />
 Contact: [Julien Flamant](mailto:julien.flamant@univ-lorraine.fr) and [Sebastian Miron](mailto:sebastian.miron@univ-lorraine.fr)<br/>
 <a href="/assets/jobs/M2R_learningFeaturesPolarization.pdf">Full job information <span class="fa fa-file-pdf-o"></span></a>
+
+* "**3D and 4D data processing with quaternion tensor decompositions**"  **M2R internship, starting Feb 2022. in collaboration with LIS (Toulon)**<br />
+Contact: [Julien Flamant](mailto:julien.flamant@univ-lorraine.fr) and [Xavier Luciani](mailto:luciani@univ-tln.fr) (LIS)<br/>
+<a href="/assets/jobs/M2RCRANLIS.pdf.pdf">Full job information <span class="fa fa-file-pdf-o"></span></a>
