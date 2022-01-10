@@ -48,11 +48,11 @@
   email: alain.delconte@univ-lorraine.fr
   keywords: Hyperspectral Imaging platform manager
 
-  - name: Ricardo Borsoi
-    photo:
-    info: postdoctoral fellow
-    email: raborsoi@gmail.com
-    keywords:
-    website: https://ricardoborsoi.github.io
-    scholar: https://scholar.google.com/citations?user=FeiFDgkAAAAJ&hl=en
-    researchgate: https://www.researchgate.net/profile/Ricardo-Borsoi
+- name: Ricardo Borsoi
+  photo:
+  info: postdoctoral fellow
+  email: raborsoi@gmail.com
+  keywords:
+  website: https://ricardoborsoi.github.io
+  scholar: https://scholar.google.com/citations?user=FeiFDgkAAAAJ&hl=en
+  researchgate: https://www.researchgate.net/profile/Ricardo-Borsoi
