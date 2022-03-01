@@ -12,6 +12,13 @@ We are always looking for bright and talented students to join our research grou
 If you are interested in joining us, please contact one of us directly by email (see [team members](team/))
 
 You'll find below a list of current openings:
+## Postdoctoral positions
+
+* "**Tensor methods for deep learning**" <br/>
+*We are inviting applications for a postdoctoral research position on developing new deep learning approaches based on low-rank tensor approximations. This is a 2-year position with the desirable starting date in January 2022 or earlier. The applications are received until the position is filled. The project is co-funded by the French Agence Nationale de Recherche and Grand Est Region. The applicant will be employed in Nancy by the University of Lorraine and the CNRS.*
+<br/>
+Contact : [Konstantin Usevich](mailto:konstantin.usevich@univ-lorraine.fr)<br />
+<a href="/assets/jobs/postdoc-2021-nn-tensors_0.pdf">Full job information <span class="fa fa-file-pdf-o"></span></a>
 
 ## PhD positions
 
