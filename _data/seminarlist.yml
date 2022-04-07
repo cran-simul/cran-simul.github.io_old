@@ -1,11 +1,18 @@
--  speaker: Christian Wolf
-   institution: LIRIS, Lyon
-   date:  December, 16th 2021, 14h-15h
-   title: Learning high-level reasoning in vision, language and robotics
-   abstract: "An important sub goal of AI is the creation of intelligent agents, which require high-level reasoning capabilities, situation awareness, and the capacity of robustly taking the right decisions at the right moments. An exact definition of the term reasoning is difficult, but we define it as the opposite of exploiting spurious biases and short-cuts in training data picked up by low-level statistics, and which could lead to dramatic losses in generalization beyond the training data.
-
-   In this talk we will cover the automatic learning reasoning capabilities through large-scale training of deep neural networks from data, and we target different situations, like robotics and embodied computer vision (robot navigation to solve visual tasks) as well as vision and language reasoning (visual question answering). We explore this problem in a holistic way and study it from various angles of attack: what are the tasks which lead to emergence of reasoning? How can we evaluate agents and measure reasoning vs. bias exploitation? How can we x-ray neural models and visualize their internal behavior? What are the bottlenecks in learning reasoning? Can we structure neural networks with inductive bias to improve the emergence of reasoning, by including prior knowledge on geometry, physics, or semantics?"
+#-  speaker: Christian Wolf
+#   institution: LIRIS, Lyon
+#   date:  December, 16th 2021, 14h-15h
+#   title: Learning high-level reasoning in vision, language and robotics
+#   abstract: "An important sub goal of AI is the creation of intelligent agents, which require high-level reasoning capabilities, situation awareness, and the capacity of robustly taking the right decisions at the right moments. An exact definition of the term reasoning is difficult, but we define it as the opposite of exploiting spurious biases and short-cuts in training data picked up by low-level statistics, and which could lead to dramatic losses in generalization beyond the training data.
+#
+#   In this talk we will cover the automatic learning reasoning capabilities through large-scale training of deep neural networks from data, and we target different situations, like robotics and embodied computer vision (robot navigation to solve visual tasks) as well as vision and language reasoning (visual question answering). We explore this problem in a holistic way and study it from various angles of attack: what are the tasks which lead to emergence of reasoning? How can we evaluate agents and measure reasoning vs. bias exploitation? How can we x-ray neural models and visualize their internal behavior? What are the bottlenecks in learning reasoning? Can we structure neural networks with inductive bias to improve the emergence of reasoning, by including prior knowledge on geometry, physics, or semantics?"
+#   active: 1
+-  speaker: Rima Khouja
+   institution: INRIA, Sophia Antipolis
+   date:  April, 28th 2022, 10h-11h
+   title: "Riemannian Newton optimization methods for the symmetric tensor approximation problem"
+   abstract: Tensors are higher order generalization of matrices. They appear in a myriad of applications. The tensor rank decomposition is to write the tensor as a minimal sum of simple rank-1 tensors. In practice, the presence of noise in the tensor's inputs means that computing an approximated low rank decomposition is more relevant than computing the exact tensor rank decomposition. This problem is known as the low rank tensor approximation problem. In this talk, we discuss the low rank tensor approximation problem for symmetric tensors i.e. tensors with unchanged entries under any permutation of their indices. The symmetric tensors are considered with complex coefficients. We present a Riemannian optimization approach proposing Riemannian Newton and Riemannian Gauss-Newton algorithms to solve this problem. We show how the low rank symmetric tensor approximation problem can be used for tackling the problem of recovering spherical Gaussian mixture models from datasets, where the tensor is built from empirical moments of the data distribution.
    active: 1
+
 
 -  speaker: Clément Elvira
    institution: IETR, Rennes
