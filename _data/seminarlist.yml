@@ -6,6 +6,13 @@
 #
 #   In this talk we will cover the automatic learning reasoning capabilities through large-scale training of deep neural networks from data, and we target different situations, like robotics and embodied computer vision (robot navigation to solve visual tasks) as well as vision and language reasoning (visual question answering). We explore this problem in a holistic way and study it from various angles of attack: what are the tasks which lead to emergence of reasoning? How can we evaluate agents and measure reasoning vs. bias exploitation? How can we x-ray neural models and visualize their internal behavior? What are the bottlenecks in learning reasoning? Can we structure neural networks with inductive bias to improve the emergence of reasoning, by including prior knowledge on geometry, physics, or semantics?"
 #   active: 1
+-  speaker: Raphael Mignot
+   institution: IECL, Nancy
+   date:  May, 05th 2022, 10h30-11h30
+   title: "Barycentres de séries temporelles : une nouvelle approche basée sur la méthode de la signature"
+   abstract: La méthode de la signature a été largement utilisée pour l'analyse des séries temporelles multivariées. Cette approche a prouvé son efficacité pour de nombreuses applications  en apprentissage statistique. La définition d'une notion de barycentre dans l'espace des signatures est un premier pas prometteur permettant de développer de nouvelles extensions de l'analyse en composantes principales (ACP)  ou de l'algorithme des k-moyennes aux séries temporelles.
+   active: 1
+
 -  speaker: Rima Khouja
    institution: INRIA, Sophia Antipolis
    date:  April, 28th 2022, 10h-11h
