@@ -12,14 +12,14 @@
    date:  July, 12th 2022, 10h30-11h30
    title: "The Kravchuk transform: a novel covariant representation for discrete signals amenable to zero-based detection tests."
    abstract: "Recent works in time-frequency analysis proposed to switch the focus from the maxima of the spectrogram toward its zeros, which form a random point pattern with a very stable structure. Several signal processing tasks, such as component disentanglement and signal detection procedures, have already been renewed by using modern spatial statistics onthe pattern of zeros. Tough, they require cautious choice of both the discretization strategy and the observation window in the time-frequency plane. To overcome these limitations, we propose a generalized time-frequency representation: the Kravchuk transform, especially designed for discrete signals analysis, whose phase space is the unit sphere, particularly amenable to spatial statistics. We show that it has all desired properties for signal processing, among which covariance, invertibility and symmetry, and that the point process of the zeros of the Kravchuk transform of complex white Gaussian noise coincides with the zeros of the spherical Gaussian Analytic Function. Elaborating on this theorem, we finally develop a Monte Carlo envelope test procedure for signal detection based on the spatial statistics of the zeros of the Kravchuk spectrogram. After reviewing the unorthodox path focusing on the zeros of the standard spectrogram and the associated theoretical results on the distribution of zeros in the case of white noise, I will introduce the Kravchuk transform and study the random point process of its zeros from a spatial statistics perspective. Then I will present the designed Monte Carlo envelop test, and illustrate its numerical performance in adversarial settings, with both low signal-to-noise ratio and small number of samples, and compare it to state-of-the-art zeros-based detection procedures."
-   active: 1
+   active: 0
 
 -  speaker: Tülay Adali
    institution: University of Maryland, Baltimore County
    date:  May, 30th 2022, 13h30-14h30
    title: "Independent Component and Vector Analyses"
    abstract: "In many fields today, such as  neuroscience, remote sensing, computational social science, and physical sciences, multiple sets of data are readily available. Matrix and tensor factorizations enable joint analysis, i.e., fusion, of these multiple  datasets such that they can fully interact and inform each other while also minimizing the assumptions placed on their inherent relationships. A key advantage of these methods is the direct interpretability of their results. This talk presents an overview of models based on independent component analysis (ICA), and its generalization to multiple datasets, independent vector analysis (IVA) with examples in fusion of neuroimaging data. Relationship of IVA to other methods such as multiset canonical correlation analysis (MCCA) is discussed, and a number of important directions of research are addressed, along with the challenges."
-   active: 1
+   active: 0
 
 -  speaker: Raphael Mignot
    institution: IECL, Nancy
