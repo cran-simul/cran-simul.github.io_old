@@ -7,6 +7,13 @@
 #   In this talk we will cover the automatic learning reasoning capabilities through large-scale training of deep neural networks from data, and we target different situations, like robotics and embodied computer vision (robot navigation to solve visual tasks) as well as vision and language reasoning (visual question answering). We explore this problem in a holistic way and study it from various angles of attack: what are the tasks which lead to emergence of reasoning? How can we evaluate agents and measure reasoning vs. bias exploitation? How can we x-ray neural models and visualize their internal behavior? What are the bottlenecks in learning reasoning? Can we structure neural networks with inductive bias to improve the emergence of reasoning, by including prior knowledge on geometry, physics, or semantics?"
 #   active: 1
 
+-  speaker: Jonathan Gillard
+   institution: Cardiff University
+   date:  November, 10th 2022, 14h-15h
+   title: "Low-rank methods for time series analysis."
+   abstract: "This talk will describe some classic and recent results on low-rank methods for problems of time series analysis. The first typical and fundamental step to enable low-rank methods in this setting is to embed a time series into a Hankel matrix; low-rank approximations of this matrix which maintain the Hankel structure have meaning for classical problems such as approximation, de-noising, and forecasting. This claim will be justified in the talk and is part of a broader field known as structured low-rank approximation (SLRA). We discuss some results in SLRA before describing recent work on the nuclear norm convex relaxation of the rank minimization of Hankel matrices for forecasting, which gives rise to interesting theory and much potential for application, and can be viewed as a particular problem of matrix completion."
+   active: 1
+
 -  speaker: Barbara Pascal
    institution: CRIStAL, Lille
    date:  July, 12th 2022, 10h30-11h30
