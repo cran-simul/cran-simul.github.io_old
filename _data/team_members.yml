@@ -42,17 +42,17 @@
   scholar: https://scholar.google.com/citations?user=rNN19hcAAAAJ&hl=fr
   researchgate: https://www.researchgate.net/profile/Julien_Flamant
 
+- name: Ricardo Borsoi
+  photo: borsoi.jpg
+  info: CNRS researcher
+  email: ricardo.borsoi@univ-lorraine.fr
+  keywords:
+  website: https://ricardoborsoi.github.io
+  scholar: https://scholar.google.com/citations?user=FeiFDgkAAAAJ&hl=en
+  researchgate: https://www.researchgate.net/profile/Ricardo-Borsoi
+
 - name: Alain Delconte
   photo: delconte.jpg
   info: Research Engineer
   email: alain.delconte@univ-lorraine.fr
   keywords: Hyperspectral Imaging platform manager
-
-- name: Ricardo Borsoi
-  photo: borsoi.jpg
-  info: postdoctoral fellow
-  email: raborsoi@gmail.com
-  keywords:
-  website: https://ricardoborsoi.github.io
-  scholar: https://scholar.google.com/citations?user=FeiFDgkAAAAJ&hl=en
-  researchgate: https://www.researchgate.net/profile/Ricardo-Borsoi
