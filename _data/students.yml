@@ -20,6 +20,11 @@
   email: narech.houessou@univ-lorraine.fr
   subject: "Machine learning and data fusion for environmental monitoring. Application to risk exposure prevention in working environments."
 
+- name: Saulo Barreto
+  photo: barreto.jpg
+  info: PhD Student
+  email: saulo.barreto@univ-lorraine.fr
+  subject: "Physics-informed methods for learning low-rank models in polarization imaging. Application to cancer cell detection in bio-imaging"
 
 - name: Radouan Dahbi
   photo: misc.jpg
