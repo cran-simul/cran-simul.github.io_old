@@ -7,12 +7,19 @@
 #   In this talk we will cover the automatic learning reasoning capabilities through large-scale training of deep neural networks from data, and we target different situations, like robotics and embodied computer vision (robot navigation to solve visual tasks) as well as vision and language reasoning (visual question answering). We explore this problem in a holistic way and study it from various angles of attack: what are the tasks which lead to emergence of reasoning? How can we evaluate agents and measure reasoning vs. bias exploitation? How can we x-ray neural models and visualize their internal behavior? What are the bottlenecks in learning reasoning? Can we structure neural networks with inductive bias to improve the emergence of reasoning, by including prior knowledge on geometry, physics, or semantics?"
 #   active: 1
 
+-  speaker:  Lorena León
+   institution: IRIT, University of Toulouse
+   date:  November, 17th 2022, 14h-15h
+   title: "Bayesian Multivariate Multifractal Analysis with application to Drowsiness Detection"
+   abstract: "Multifractal analysis has become a reference tool for signal and image processing. Grounded in the quantification of local regularity fluctuations, it has proven useful in an increasing range of applications, yet so far involving only univariate data (scalar valued time series or single channel images). Recently the theoretical ground for multivariate multifractal analysis has been devised, showing potential for quantifying transient higher-order dependence beyond linear correlation among collections of data. However, the accurate estimation of the parameters associated with a multivariate multifractal model remains challenging, especially for small sample size data. This work studies an original Bayesian framework for multivariate multifractal estimation, combining a novel and generic multivariate statistical model, a Whittle-based likelihood approximation and a data augmentation strategy allowing parameter separability. This careful design enables efficient estimation procedures to be constructed for two relevant choices of priors using a Gibbs sampling strategy. Monte Carlo simulations, conducted on synthetic multivariate signals and images with various sample sizes and multifractal parameter settings, demonstrate significant performance improvements over the state of the art, at only moderately larger computational cost. Moreover, we show the relevance of the proposed framework for real-world data modeling in the important application of drowsiness detection from multichannel physiological signals."
+   active: 1
+
 -  speaker: Jonathan Gillard
    institution: Cardiff University
    date:  November, 10th 2022, 14h-15h
    title: "Low-rank methods for time series analysis."
    abstract: "This talk will describe some classic and recent results on low-rank methods for problems of time series analysis. The first typical and fundamental step to enable low-rank methods in this setting is to embed a time series into a Hankel matrix; low-rank approximations of this matrix which maintain the Hankel structure have meaning for classical problems such as approximation, de-noising, and forecasting. This claim will be justified in the talk and is part of a broader field known as structured low-rank approximation (SLRA). We discuss some results in SLRA before describing recent work on the nuclear norm convex relaxation of the rank minimization of Hankel matrices for forecasting, which gives rise to interesting theory and much potential for application, and can be viewed as a particular problem of matrix completion."
-   active: 1
+   active: 0
 
 -  speaker: Barbara Pascal
    institution: CRIStAL, Lille
