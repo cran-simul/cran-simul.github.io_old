@@ -6,13 +6,19 @@
 #
 #   In this talk we will cover the automatic learning reasoning capabilities through large-scale training of deep neural networks from data, and we target different situations, like robotics and embodied computer vision (robot navigation to solve visual tasks) as well as vision and language reasoning (visual question answering). We explore this problem in a holistic way and study it from various angles of attack: what are the tasks which lead to emergence of reasoning? How can we evaluate agents and measure reasoning vs. bias exploitation? How can we x-ray neural models and visualize their internal behavior? What are the bottlenecks in learning reasoning? Can we structure neural networks with inductive bias to improve the emergence of reasoning, by including prior knowledge on geometry, physics, or semantics?"
 #   active: 1
+-  speaker:  Joppe De Jonghe
+   institution: KU Leuven, Belgium
+   date:  April, 6th 2022, 14h-15h
+   title: "Learning non-linearities in the two layer decoupling problem with an application to neural network compression"
+   abstract: "TBD"
+   active: 1
 
 -  speaker:  Khazhgali Kozhasov
    institution: TU Braunschweig, Germany
    date:  December, 6th 2022, 14h-15h
    title: "Real aspects of the problem of rank-one approximation"
    abstract: "Let us consider the problem of approximating a real tensor T (of a given format) by a rank-one tensor T_1 that minimizes (the Frobenius) norm ||T-S_1|| among all rank-one tensors S_1. A tensor T_1 is, in particular, a critical point of the square of the distance function dist_T: S_1 -> ||T-S_1||^2 on the manifold X of rank-one tensors. The largest possible number N of critical points of dist_T among all generic T can be interpreted as a measure of complexity of the rank-one approximation problem. I will discuss a bound on N due to Friedland and Ottaviani and will explain a technique that has been successfully used to determine a sharp bound on the number of symmetric critical points of dist_T for a symmetric tensor T. If time permits, I will discuss tensors that have worst rank-one approximation error and mention a recent result that roughly means that symmetric tensors are as far from being of rank one as general tensors."
-   active: 1
+   active: 0
 
 -  speaker:  Lorena León
    institution: IRIT, University of Toulouse
