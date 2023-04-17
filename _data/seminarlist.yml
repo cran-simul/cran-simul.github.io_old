@@ -11,7 +11,7 @@
    date:  April, 6th 2023, 14h-15h
    title: "Learning non-linearities in the two layer decoupling problem with an application to neural network compression"
    abstract: "Methods for the decoupling of multivariate functions have been developed  in order to determine the parameters and internal representations of  non-linear static components in block-oriented system identification. These methods solve the single layer decoupling problem, whose solution has a natural interpretation as a neural network with a single hidden layer with flexible activation functions in the neurons. As a result, these methods have been used to compress neural (sub)networks. However, currently only compression to a single hidden layer is well understood but more complex (sub)networks may require more flexibility in the number of hidden layers. Providing compression to more than one hidden layer corresponds to approximating a solution of a multi-layer decoupling problem. In this talk I will shortly describe the single layer decoupling problem and why multi-layer decoupling is relevant, more specifically forneural network compression. Next, I will present the two layer decoupling problem as well as a solution strategy. In addition, two algorithms for approximating a solution will be discussed and described conceptually."
-   active: 1
+   active: 0
 
 -  speaker:  Khazhgali Kozhasov
    institution: TU Braunschweig, Germany
